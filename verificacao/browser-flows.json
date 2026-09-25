@@ -1,0 +1,50 @@
+{
+  "executedAt": "2026-09-25T04:35:45.709Z",
+  "evidence": [
+    {
+      "name": "Primeiro acesso, roteiro e seleção de bebida",
+      "pass": true
+    },
+    {
+      "name": "Kit Ballantine’s + 2 Copões de Smirnoff no cartão, componentes e desfazer",
+      "pass": true
+    },
+    {
+      "name": "Venda rápida, cancelamento com consumo e taxas discriminadas",
+      "pass": true
+    },
+    {
+      "name": "Compra com custo total obrigatório e média ponderada",
+      "pass": true
+    },
+    {
+      "name": "Contagem guiada com falta, insumo, item pulado e revisão",
+      "pass": true
+    },
+    {
+      "name": "Filtros, balcão de registro independente e estoque compartilhado",
+      "pass": true
+    },
+    {
+      "name": "Identidade, perfis, PIN e modo Balcão persistidos",
+      "pass": true
+    },
+    {
+      "name": "Exportar, cancelar restauração, restaurar e importar sem alterar datas",
+      "pass": true
+    },
+    {
+      "name": "Começar do zero e cadastrar fornecedor, saldo inicial, drink e combo",
+      "pass": true
+    },
+    {
+      "name": "Tela móvel, comanda acessível e venda por toque",
+      "pass": true
+    },
+    {
+      "name": "Arquivo local offline, tabelas e recarga sem novas vendas",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

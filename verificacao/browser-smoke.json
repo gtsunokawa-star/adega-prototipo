@@ -1,0 +1,149 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "tab": "panel",
+      "scroll": 1440,
+      "body": 1440,
+      "title": "Uma boa dose de controle.",
+      "visible": true
+    },
+    {
+      "width": 1440,
+      "tab": "counter",
+      "scroll": 1440,
+      "body": 1440,
+      "title": "Venda simples. Controle completo.",
+      "visible": true
+    },
+    {
+      "width": 1440,
+      "tab": "stock",
+      "scroll": 1440,
+      "body": 1440,
+      "title": "Cada garrafa, no seu lugar.",
+      "visible": true
+    },
+    {
+      "width": 1440,
+      "tab": "reports",
+      "scroll": 1440,
+      "body": 1440,
+      "title": "O que gira. O que rende.",
+      "visible": true
+    },
+    {
+      "width": 1440,
+      "tab": "loss",
+      "scroll": 1440,
+      "body": 1440,
+      "title": "Cada dose faz diferença.",
+      "visible": true
+    },
+    {
+      "width": 1440,
+      "tab": "settings",
+      "scroll": 1440,
+      "body": 1440,
+      "title": "Com a cara da sua adega.",
+      "visible": true
+    },
+    {
+      "width": 768,
+      "tab": "panel",
+      "scroll": 768,
+      "body": 768,
+      "title": "Uma boa dose de controle.",
+      "visible": true
+    },
+    {
+      "width": 768,
+      "tab": "counter",
+      "scroll": 768,
+      "body": 768,
+      "title": "Venda simples. Controle completo.",
+      "visible": true
+    },
+    {
+      "width": 768,
+      "tab": "stock",
+      "scroll": 768,
+      "body": 768,
+      "title": "Cada garrafa, no seu lugar.",
+      "visible": true
+    },
+    {
+      "width": 768,
+      "tab": "reports",
+      "scroll": 768,
+      "body": 768,
+      "title": "O que gira. O que rende.",
+      "visible": true
+    },
+    {
+      "width": 768,
+      "tab": "loss",
+      "scroll": 768,
+      "body": 768,
+      "title": "Cada dose faz diferença.",
+      "visible": true
+    },
+    {
+      "width": 768,
+      "tab": "settings",
+      "scroll": 768,
+      "body": 768,
+      "title": "Com a cara da sua adega.",
+      "visible": true
+    },
+    {
+      "width": 360,
+      "tab": "panel",
+      "scroll": 360,
+      "body": 360,
+      "title": "Uma boa dose de controle.",
+      "visible": true
+    },
+    {
+      "width": 360,
+      "tab": "counter",
+      "scroll": 360,
+      "body": 360,
+      "title": "Venda simples. Controle completo.",
+      "visible": true
+    },
+    {
+      "width": 360,
+      "tab": "stock",
+      "scroll": 360,
+      "body": 360,
+      "title": "Cada garrafa, no seu lugar.",
+      "visible": true
+    },
+    {
+      "width": 360,
+      "tab": "reports",
+      "scroll": 360,
+      "body": 360,
+      "title": "O que gira. O que rende.",
+      "visible": true
+    },
+    {
+      "width": 360,
+      "tab": "loss",
+      "scroll": 360,
+      "body": 360,
+      "title": "Cada dose faz diferença.",
+      "visible": true
+    },
+    {
+      "width": 360,
+      "tab": "settings",
+      "scroll": 360,
+      "body": 360,
+      "title": "Com a cara da sua adega.",
+      "visible": true
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#111310">
+<meta name="color-scheme" content="dark">
+<meta name="description" content="AdegaControl. Vendas, estoque e margem da sua adega em um só lugar. Demonstração interativa.">
+<title>AdegaControl — Sua adega, na medida.</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23c9e879'/%3E%3Cpath d='M20 47 30 17h5l10 30h-7l-2-7H28l-2 7zm10-13h5l-2-10z' fill='%23111310'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>/*__STYLE__*/</style>
+</head>
+<body data-mode="owner">
+<a class="skip-link" href="#content">Pular para o conteúdo</a>
+<div id="boot" class="boot"><span class="boot-mark">A</span><h1>AdegaControl</h1><p>Preparando a sua adega…</p></div>
+<div id="app" class="app-shell" hidden>
+  <aside class="sidebar">
+    <a class="brand" href="#" aria-label="AdegaControl, visão geral"><span class="brand-symbol">A<span>°</span></span><span>Adega<span class="brand-light">Control</span><small>SUA ADEGA, NA MEDIDA.</small></span></a>
+    <div class="sidebar-label">ESPAÇO DA ADEGA</div>
+    <nav class="nav" aria-label="Navegação principal"></nav>
+    <div class="sidebar-foot"><div class="store-avatar" id="store-avatar">AB</div><strong id="sidebar-store">Adega de Bairro</strong><span class="muted">Seu balcão sob controle.</span><span class="local-badge"><i></i> Dados neste aparelho</span><small>DEMONSTRAÇÃO INTERATIVA</small></div>
+  </aside>
+  <main class="main">
+    <header class="topbar"><div class="top-title"><span class="eyebrow">BEM-VINDO À SUA ADEGA</span><strong id="store-name"></strong></div><div class="top-actions"><span class="badge" id="profile-badge">BAIRRO</span><button class="button secondary small" data-action="mode" id="mode-button"></button></div></header>
+    <div id="storage-warning" class="notice warn" hidden></div>
+    <div class="toolbar"><div class="periods" role="group" aria-label="Período dos relatórios"></div><div class="period-dates"></div><label class="counter-filter"><span class="sr-only">Filtrar relatórios por balcão</span><select id="report-counter"><option value="all">Todos os balcões</option><option value="1">Balcão 1</option><option value="2">Balcão 2</option></select></label></div>
+    <div id="content" tabindex="-1"></div>
+    <footer class="app-footer"><span>AdegaControl</span><span class="demo-label">Demonstração · preços, receitas e movimentos fictícios.</span></footer>
+  </main>
+</div>
+<dialog id="modal" aria-labelledby="modal-title"></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<input type="file" id="import-file" accept=".json,application/json" hidden>
+<script>/*__ENGINE__*/</script>
+<script>/*__DEMO__*/</script>
+<script>/*__PHOTOS__*/</script>
+<script>/*__VISUAL__*/</script>
+<script>/*__APP__*/</script>
+<script async src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js" onload="window.dispatchEvent(new Event('chartsready'))"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Smirnoff No. 21",
+    "file": "smirnoff.png",
+    "page": "https://www.extramercado.com.br/produto/134026/vodka-destilada-smirnoff-garrafa-998ml",
+    "url": "https://static.extramercado.com.br/img/uploads/1/621/33352621.png?im=Resize%2Cwidth%3D480"
+  },
+  {
+    "name": "Jack Daniel’s Old No. 7",
+    "file": "jack-daniels.png",
+    "page": "https://www.giassi.com.br/whisky_old_no_7_jack_daniels_garrafa_1l_9641408/p",
+    "url": "https://giassi.vtexassets.com/arquivos/ids/2760057/Whisky-Old-No--7-Jack-Daniel-s-Garrafa-1l.png?v=638627604777500000"
+  },
+  {
+    "name": "Ballantine’s Finest",
+    "file": "ballantines-oficial.webp",
+    "page": "https://www.pernod-ricard.com/en/brands/ballantines",
+    "url": "https://www.pernod-ricard.com/sites/default/files/styles/packshot_desktop_and_mobile_640_height_/public/2025-02/Finest%20Dark%2070cl%20Bottle%20ballantines.png.webp?itok=l_PNgXGj"
+  },
+  {
+    "name": "Johnnie Walker Red Label",
+    "file": "red-label.webp",
+    "page": "https://www.johnniewalker.com/pt-br/our-whisky/core-range/johnnie-walker-red-label",
+    "url": "https://images.ctfassets.net/waruwpig3jxu/5uXjsPl0sDoZ1CeA4DN20Q/860cc3c632b6e7c76fa19b126a20dfb2/red-750ml_producthero_fullfront_desktop.webp?q=80&w=480"
+  }
+]

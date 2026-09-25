@@ -1,0 +1,92 @@
+[
+  {
+    "file": "assets/bebidas/gin-rocks.jpg",
+    "name": "Gin Rock’s Dry 1 L",
+    "imageUrl": "https://cdn.awsli.com.br/600x600/897/897819/produto/96556970a4e4aee8f2.jpg",
+    "sourcePage": "https://www.fabricadebebidas.com.br/GRT1000",
+    "downloadedAt": "2026-09-24",
+    "visualChecked": true,
+    "note": "Fotografia real de produto inteiro; download direto da fonte, sem geração nem edição do bitmap."
+  },
+  {
+    "file": "assets/bebidas/cachaca-51.jpg",
+    "name": "Cachaça 51 965 ml",
+    "imageUrl": "https://cdn.irmaospatrocinio.com.br/img/p/1/7/6/9/2/2/176922-large_default.jpg",
+    "sourcePage": "https://irmaospatrocinio.com.br/bebidas/cachaca-e-aguardente/comum/1385/cachaca-51-pirassununga-965ml.html",
+    "downloadedAt": "2026-09-24",
+    "visualChecked": true,
+    "note": "Fotografia real de produto inteiro; download direto da fonte, sem geração nem edição do bitmap."
+  },
+  {
+    "file": "assets/bebidas/corote.jpg",
+    "name": "Cachaça Corote 500 ml",
+    "imageUrl": "https://destro.fbitsstatic.net/img/p/cachaca-corote-pet-500ml-72081/258617.jpg?h=500&qs=ignore&v=202501231555&w=500",
+    "sourcePage": "https://www.destromacro.com.br/produto/cachaca-corote-pet-500ml-72081",
+    "downloadedAt": "2026-09-24",
+    "visualChecked": true,
+    "note": "Fotografia real de produto inteiro; download direto da fonte, sem geração nem edição do bitmap."
+  },
+  {
+    "file": "assets/bebidas/white-horse.png",
+    "name": "White Horse 1 L",
+    "imageUrl": "https://io.convertiez.com.br/m/superpaguemenos/shop/products/images/23956/medium/whisky-nacional-white-horse-1l_74672.png",
+    "sourcePage": "https://www.superpaguemenos.com.br/whisky-nacional-white-horse-1l/p",
+    "downloadedAt": "2026-09-24",
+    "visualChecked": true,
+    "note": "Fotografia real de produto inteiro; download direto da fonte, sem geração nem edição do bitmap."
+  },
+  {
+    "file": "assets/bebidas/dreher.webp",
+    "name": "Dreher 900 ml",
+    "imageUrl": "https://www.planetaaguaadega.com.br/uploads/img/550/conhaque-dreher-900ml-b2f7273b9db9c873402bd84bac83a937.webp",
+    "sourcePage": "https://www.planetaaguaadega.com.br/conhaque/nacional/conhaque-dreher-900ml",
+    "downloadedAt": "2026-09-24",
+    "visualChecked": true,
+    "note": "Fotografia real de produto inteiro; download direto da fonte, sem geração nem edição do bitmap."
+  },
+  {
+    "file": "assets/bebidas/gordons.png",
+    "name": "Gordon’s London Dry 750 ml",
+    "imageUrl": "https://cdn.awsli.com.br/600x600/1559/1559420/produto/77332764/727184-gin-gordons-750ml_1-ru02ymq5ep.png",
+    "sourcePage": "https://www.gremiodiageo.com.br/gin-gordons-750ml-2020-11-18-22-12-13",
+    "downloadedAt": "2026-09-24",
+    "visualChecked": true,
+    "note": "Fotografia real de produto inteiro; download direto da fonte, sem geração nem edição do bitmap."
+  },
+  {
+    "file": "assets/bebidas/absolut.webp",
+    "name": "Absolut Vodka 1 L",
+    "imageUrl": "https://cdn11.bigcommerce.com/s-x3kq5bcr0e/images/stencil/608x608/products/11399/6975/Absolut_Vodka_1L-1__11832.1739697446.png?c=1",
+    "sourcePage": "https://redbottle.com.au/absolut-vodka-limited-edition-rainbow-1l/",
+    "downloadedAt": "2026-09-24",
+    "visualChecked": true,
+    "note": "Fotografia real de produto inteiro; download direto da fonte, sem geração nem edição do bitmap."
+  },
+  {
+    "file": "assets/bebidas/chivas-12.jpg",
+    "name": "Chivas Regal 12 1 L",
+    "imageUrl": "https://zaffari.vtexassets.com/arquivos/ids/297932-600-600/1008780-00.jpg?v=639008140905430000",
+    "sourcePage": "https://www.zaffari.com.br/whisky-escoces-chivas-regal-12-anos-1-litro-1008780/p",
+    "downloadedAt": "2026-09-24",
+    "visualChecked": true,
+    "note": "Fotografia real de produto inteiro; download direto da fonte, sem geração nem edição do bitmap."
+  },
+  {
+    "file": "assets/bebidas/jack-honey.jpg",
+    "name": "Jack Daniel’s Tennessee Honey 1 L",
+    "imageUrl": "https://threshers.co.uk/cdn/shop/products/Jack-Daniels-Tennessee-Honey-1ltr_600x.jpg?v=1686214770",
+    "sourcePage": "https://threshers.co.uk/products/jack-daniels-tennessee-honey-1ltr",
+    "downloadedAt": "2026-09-24",
+    "visualChecked": true,
+    "note": "Fotografia real de produto inteiro; download direto da fonte, sem geração nem edição do bitmap."
+  },
+  {
+    "file": "assets/bebidas/beefeater.png",
+    "name": "Beefeater London Dry 750 ml",
+    "imageUrl": "https://mensjournalspirits.com/cdn/shop/files/Beefeater_London_Dry_Gin_750_ml.png?v=1760388715&width=600",
+    "sourcePage": "https://mensjournalspirits.com/products/beefeater-london-dry-gin-750-ml",
+    "downloadedAt": "2026-09-24",
+    "visualChecked": true,
+    "note": "Fotografia real de produto inteiro; download direto da fonte, sem geração nem edição do bitmap."
+  }
+]

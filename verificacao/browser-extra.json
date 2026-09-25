@@ -1,0 +1,22 @@
+{
+  "executedAt": "2026-09-25T04:31:40.282Z",
+  "checks": [
+    {
+      "name": "Fotos reais completas nos dois perfis e carrossel por teclado",
+      "pass": true
+    },
+    {
+      "name": "Retomar roteiro e personalização pelo link",
+      "pass": true
+    },
+    {
+      "name": "Avançar semanas preserva demo; restaurar mantém o outro perfil",
+      "pass": true
+    },
+    {
+      "name": "Cancelar dose não servida após abertura automática recupera distribuição física",
+      "pass": true
+    }
+  ],
+  "errors": []
+}
