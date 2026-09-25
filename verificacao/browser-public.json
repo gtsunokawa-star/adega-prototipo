@@ -1,31 +1,15 @@
 {
   "url": "https://gtsunokawa-star.github.io/adega-prototipo/",
-  "checkedAt": "2026-09-25T05:10:02.283Z",
+  "checkedAt": "2026-09-25T05:11:18.999Z",
   "htmlMatchesLocal": true,
-  "sha256": "0ab2142c1aa7e75638e593e27440138198112462b346f070611d486b1c274c08",
+  "sha256": "259e2ba4a84a620f387d89caa788c8229210c39830584133f4f1a8089afc8298",
   "photosLoaded": 10,
   "saleRegistered": true,
   "mobileDimensions": [
     {
       "tab": "panel",
       "width": 360,
-      "outside": [
-        {
-          "tag": "BUTTON",
-          "cls": "hero-bottle hero-bottle-2",
-          "right": 369
-        },
-        {
-          "tag": "SPAN",
-          "cls": "bottle-svg bottle-photo bottle-large",
-          "right": 369
-        },
-        {
-          "tag": "IMG",
-          "cls": "",
-          "right": 369
-        }
-      ]
+      "outside": []
     },
     {
       "tab": "counter",
@@ -39,14 +23,8 @@
     },
     {
       "tab": "reports",
-      "width": 365,
-      "outside": [
-        {
-          "tag": "SPAN",
-          "cls": "metric-note",
-          "right": 365
-        }
-      ]
+      "width": 360,
+      "outside": []
     },
     {
       "tab": "loss",
@@ -60,6 +38,6 @@
     }
   ],
   "passed": false,
-  "error": "[{\"tab\":\"panel\",\"width\":360,\"outside\":[{\"tag\":\"BUTTON\",\"cls\":\"hero-bottle hero-bottle-2\",\"right\":369},{\"tag\":\"SPAN\",\"cls\":\"bottle-svg bottle-photo bottle-large\",\"right\":369},{\"tag\":\"IMG\",\"cls\":\"\",\"right\":369}]},{\"tab\":\"counter\",\"width\":360,\"outside\":[]},{\"tab\":\"stock\",\"width\":360,\"outside\":[]},{\"tab\":\"reports\",\"width\":365,\"outside\":[{\"tag\":\"SPAN\",\"cls\":\"metric-note\",\"right\":365}]},{\"tab\":\"loss\",\"width\":366,\"outside\":[]},{\"tab\":\"settings\",\"width\":360,\"outside\":[]}]",
+  "error": "[{\"tab\":\"panel\",\"width\":360,\"outside\":[]},{\"tab\":\"counter\",\"width\":360,\"outside\":[]},{\"tab\":\"stock\",\"width\":360,\"outside\":[]},{\"tab\":\"reports\",\"width\":360,\"outside\":[]},{\"tab\":\"loss\",\"width\":366,\"outside\":[]},{\"tab\":\"settings\",\"width\":360,\"outside\":[]}]",
   "errors": []
 }

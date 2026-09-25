@@ -40,3 +40,5 @@
 @media(max-width:480px){.kpi-grid{grid-template-columns:minmax(0,1fr)}.kpi-grid .metric-value{font-size:34px}.hero-stats .metric-value{font-size:23px}}
 .metric-note{display:block;white-space:normal;overflow-wrap:anywhere;max-width:100%}.table-wrap{min-width:0;overflow-x:auto}.metric{min-width:0}
 @media(max-width:767px){.period-dates{min-width:0;white-space:normal;font-size:10px}.period-dates small{white-space:normal}.toolbar>*{min-width:0}.overview-bottles .hero-bottle-2{right:10px}.overview-bottles .hero-bottle-0{left:10px}}
+/* Keep decorative text and effects inside the page; tables scroll in their own wrappers. */
+.main{overflow-x:clip}.sim-result{min-width:0}.sim-result .grid>div{min-width:0}.sim-result small,.sim-result .grid span{overflow-wrap:anywhere;white-space:normal}.loss-hero .button{white-space:normal;max-width:100%}

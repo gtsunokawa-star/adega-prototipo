@@ -2,8 +2,9 @@ const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=r
 (async()=>{
  const url='https://gtsunokawa-star.github.io/adega-prototipo/',b=await chromium.launch({channel:'chrome',headless:true}),p=await b.newPage({viewport:{width:1440,height:1000},locale:'pt-BR',timezoneId:'America/Sao_Paulo',reducedMotion:'reduce'}),errors=[],result={url,checkedAt:new Date().toISOString()};p.on('pageerror',e=>errors.push(e.message));
  try{
- const response=await p.goto(url,{waitUntil:'domcontentloaded'});assert.equal(response.status(),200);
- const remote=(await response.text()).replace(/\r\n/g,'\n'),local=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8').replace(/\r\n/g,'\n');assert.equal(remote,local);result.htmlMatchesLocal=true;result.sha256=crypto.createHash('sha256').update(remote).digest('hex');
+ const local=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8').replace(/\r\n/g,'\n');let remote='';
+ for(let attempt=0;attempt<12;attempt++){const response=await p.goto(url+'?verificar='+Date.now(),{waitUntil:'domcontentloaded'});assert.equal(response.status(),200);remote=(await response.text()).replace(/\r\n/g,'\n');if(remote===local)break;await p.waitForTimeout(5000);}
+ assert(remote===local,'A publicação ainda não corresponde ao HTML local.');result.htmlMatchesLocal=true;result.sha256=crypto.createHash('sha256').update(remote).digest('hex');
  await p.waitForFunction(()=>window.AdegaApp,{timeout:30000});await p.locator('.nav [data-tab="stock"]').click();await p.waitForFunction(()=>[...document.querySelectorAll('.stock-bottle img')].every(i=>i.complete&&i.naturalWidth>0));assert.equal(await p.locator('.stock-bottle img').count(),10);result.photosLoaded=10;
  await p.locator('.nav [data-tab="counter"]').click();await p.locator('[data-action="category"][data-category="all"]').click();await p.locator('[data-action="quick"][data-type="drink"][data-id="copao-vodka"]').click();await p.locator('[data-action="quick-pay"][data-payment="pix"]').click();assert.equal(await p.evaluate(()=>AdegaApp.getState().movements.at(-1).revenue),22);result.saleRegistered=true;
  await p.setViewportSize({width:360,height:900});const tabs=['panel','counter','stock','reports','loss','settings'];
