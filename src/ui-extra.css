@@ -38,3 +38,5 @@
 .overview-bottles .hero-bottle .bottle-svg{transform:none!important;filter:none;max-width:100%}.hero-art.overview-bottles{opacity:1}.hero-bottle-0,.hero-bottle-2{width:120px}.hero-bottle-1{width:140px}
 @media(max-width:767px){.toolbar{display:flex;flex-wrap:wrap}.periods{flex:0 0 100%;width:100%}.period-dates{flex:1;white-space:nowrap}.counter-filter{flex:0 0 132px}.hero-copy h2{font-size:43px}.hero-bottle-0,.hero-bottle-2{width:78px}.hero-bottle-1{width:94px;left:calc(50% - 47px)}.hero-bottle .bottle-photo{height:215px}.hero-bottle-1 .bottle-photo{height:250px}.metric-value{white-space:nowrap}}
 @media(max-width:480px){.kpi-grid{grid-template-columns:minmax(0,1fr)}.kpi-grid .metric-value{font-size:34px}.hero-stats .metric-value{font-size:23px}}
+.metric-note{display:block;white-space:normal;overflow-wrap:anywhere;max-width:100%}.table-wrap{min-width:0;overflow-x:auto}.metric{min-width:0}
+@media(max-width:767px){.period-dates{min-width:0;white-space:normal;font-size:10px}.period-dates small{white-space:normal}.toolbar>*{min-width:0}.overview-bottles .hero-bottle-2{right:10px}.overview-bottles .hero-bottle-0{left:10px}}

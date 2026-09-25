@@ -1,0 +1,65 @@
+{
+  "url": "https://gtsunokawa-star.github.io/adega-prototipo/",
+  "checkedAt": "2026-09-25T05:10:02.283Z",
+  "htmlMatchesLocal": true,
+  "sha256": "0ab2142c1aa7e75638e593e27440138198112462b346f070611d486b1c274c08",
+  "photosLoaded": 10,
+  "saleRegistered": true,
+  "mobileDimensions": [
+    {
+      "tab": "panel",
+      "width": 360,
+      "outside": [
+        {
+          "tag": "BUTTON",
+          "cls": "hero-bottle hero-bottle-2",
+          "right": 369
+        },
+        {
+          "tag": "SPAN",
+          "cls": "bottle-svg bottle-photo bottle-large",
+          "right": 369
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "right": 369
+        }
+      ]
+    },
+    {
+      "tab": "counter",
+      "width": 360,
+      "outside": []
+    },
+    {
+      "tab": "stock",
+      "width": 360,
+      "outside": []
+    },
+    {
+      "tab": "reports",
+      "width": 365,
+      "outside": [
+        {
+          "tag": "SPAN",
+          "cls": "metric-note",
+          "right": 365
+        }
+      ]
+    },
+    {
+      "tab": "loss",
+      "width": 366,
+      "outside": []
+    },
+    {
+      "tab": "settings",
+      "width": 360,
+      "outside": []
+    }
+  ],
+  "passed": false,
+  "error": "[{\"tab\":\"panel\",\"width\":360,\"outside\":[{\"tag\":\"BUTTON\",\"cls\":\"hero-bottle hero-bottle-2\",\"right\":369},{\"tag\":\"SPAN\",\"cls\":\"bottle-svg bottle-photo bottle-large\",\"right\":369},{\"tag\":\"IMG\",\"cls\":\"\",\"right\":369}]},{\"tab\":\"counter\",\"width\":360,\"outside\":[]},{\"tab\":\"stock\",\"width\":360,\"outside\":[]},{\"tab\":\"reports\",\"width\":365,\"outside\":[{\"tag\":\"SPAN\",\"cls\":\"metric-note\",\"right\":365}]},{\"tab\":\"loss\",\"width\":366,\"outside\":[]},{\"tab\":\"settings\",\"width\":360,\"outside\":[]}]",
+  "errors": []
+}

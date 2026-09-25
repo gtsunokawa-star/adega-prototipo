@@ -1,5 +1,7 @@
 # AdegaControl
 
+[Abrir demonstração](https://gtsunokawa-star.github.io/adega-prototipo/) · [Repositório no GitHub](https://github.com/gtsunokawa-star/adega-prototipo)
+
 Protótipo interativo para demonstrar vendas, estoque, margem e diferenças de contagem de uma adega. Os perfis **Adega de Bairro** e **Adega Premium** usam o mesmo motor de cálculo, com catálogos e históricos independentes. O catálogo usa marcas e fotos reais solicitadas pelo usuário. Preços, receitas, fornecedores e movimentos são demonstrativos; não são cotações nem receitas oficiais dos fabricantes.
 
 ## Abrir
