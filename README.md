@@ -8,7 +8,7 @@ Protótipo interativo para demonstrar vendas, estoque, margem e diferenças de c
 
 Abra **`index.html`** no navegador. O arquivo reúne a interface, os estilos e o código necessários para usar o protótipo; não é preciso instalar dependências, executar um build ou iniciar um servidor. Ele pode ser aberto diretamente pelo explorador de arquivos (`file://`).
 
-Para disponibilizá-lo futuramente em uma hospedagem estática, como GitHub Pages, use o mesmo `index.html` como página de entrada. A aplicação também funciona por um endereço HTTPS. Este projeto não realiza publicação automática.
+O projeto está publicado no GitHub Pages pelo link acima. A branch main contém a versão distribuída; novos commits atualizam a publicação. O mesmo index.html também pode ser usado em outra hospedagem estática.
 
 No primeiro acesso, o perfil Bairro abre no Painel em modo Dono, com um roteiro opcional: **registrar uma venda → conferir a margem → verificar o estoque**. Feche o roteiro para explorar livremente ou retome-o por **Ver roteiro**, em Ajustes. O roteiro não cria operações sozinho.
 
@@ -155,5 +155,7 @@ node --test verificacao/engine.test.cjs verificacao/demo.test.cjs
 ```
 
 Na execução registrada em 25/09/2026, os **28 testes passaram**: 22 do motor e 6 do gerador. Eles verificam cálculos, estoque, estornos, datas operacionais, importação e coerência dos dados fictícios.
+
+Também passaram 15 fluxos de navegador, 18 verificações de layout e a conferência do endereço público: fotos, venda e as seis áreas no celular. O arquivo publicado foi comparado com o HTML local. A revisão independente utilizou Claude Opus 5.5 com esforço máximo.
 
 O acompanhamento dos 25 critérios do briefing está em [verificacao/ACEITES.md](verificacao/ACEITES.md). Esse registro distingue os testes do motor, os fluxos no navegador, a inspeção visual e a publicação.

@@ -1,8 +1,8 @@
 {
   "url": "https://gtsunokawa-star.github.io/adega-prototipo/",
-  "checkedAt": "2026-09-25T05:11:18.999Z",
+  "checkedAt": "2026-09-25T05:13:15.478Z",
   "htmlMatchesLocal": true,
-  "sha256": "259e2ba4a84a620f387d89caa788c8229210c39830584133f4f1a8089afc8298",
+  "sha256": "11e74415ff775dad92b16aa121317bc74623b238d7c89f799971707c639cfb43",
   "photosLoaded": 10,
   "saleRegistered": true,
   "mobileDimensions": [
@@ -28,7 +28,7 @@
     },
     {
       "tab": "loss",
-      "width": 366,
+      "width": 360,
       "outside": []
     },
     {
@@ -37,7 +37,7 @@
       "outside": []
     }
   ],
-  "passed": false,
-  "error": "[{\"tab\":\"panel\",\"width\":360,\"outside\":[]},{\"tab\":\"counter\",\"width\":360,\"outside\":[]},{\"tab\":\"stock\",\"width\":360,\"outside\":[]},{\"tab\":\"reports\",\"width\":360,\"outside\":[]},{\"tab\":\"loss\",\"width\":366,\"outside\":[]},{\"tab\":\"settings\",\"width\":360,\"outside\":[]}]",
+  "mobileTabs": 6,
+  "passed": true,
   "errors": []
 }

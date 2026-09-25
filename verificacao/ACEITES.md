@@ -9,6 +9,7 @@ Referência: briefing v5, com D50 (marcas e fotos reais) e D51 (publicação no 
 - **4/4 fluxos adicionais**: fotos nos dois perfis e teclado; roteiro e link personalizado; avanço de 21 dias e isolamento dos perfis; recuperação física após abertura automática de uma garrafa.
 - **18/18 verificações de layout**: seis áreas em 360, 768 e 1440 px, sem erro de JavaScript ou rolagem horizontal da página.
 - Inspeção das capturas do Painel, Balcão e Estoque; correção do tamanho dos valores no celular e do posicionamento das fotos.
+- **GitHub Pages verificado**: HTTP 200, HTML idêntico ao arquivo local, 10 fotos carregadas, venda Pix registrada e seis áreas em 360 px sem transbordamento ou erro de JavaScript. Resultado em browser-public.json; fotos do Premium verificadas no fluxo adicional.
 
 Os resultados estruturados estão em browser-flows.json, browser-extra.json e browser-smoke.json. As capturas e exportações usadas nos testes permanecem locais. Os testes usam contextos de navegador isolados e não alteram os dados de uso do usuário.
 
@@ -16,7 +17,7 @@ Os resultados estruturados estão em browser-flows.json, browser-extra.json e br
 
 | Nº | Verificação e evidência |
 |---|---|
-| 1 | Arquivo local e servidor estático: fluxos e ausência de erros; recursos externos bloqueados confirmam tabelas e fotos offline. O endereço público é conferido após o envio. |
+| 1 | Arquivo local, servidor estático e GitHub Pages verificados; recursos externos bloqueados confirmam tabelas e fotos offline. |
 | 2 | Comanda real pela UI: Kit Ballantine’s + 2 Copões de Smirnoff, R$ 183, cartão R$ 6,41, Balcão 2; componentes e estoque conferidos; desfazer repõe o saldo. |
 | 3 | Motor: travessia de garrafas, reserva de lacradas e ruptura integral sem alteração parcial. |
 | 4 | UI: quatro períodos, balcão, estoque compartilhado e contador independente; valores da demo crescem com o intervalo. |
